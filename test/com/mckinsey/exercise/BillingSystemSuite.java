@@ -8,12 +8,13 @@ package com.mckinsey.exercise;
  * To change this template use File | Settings | File Templates.
  */
 
-import com.mckinsey.exercise.rules.RulesSuite;
-import com.mckinsey.exercise.service.impl.ServiceSuite;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
+import com.mckinsey.exercise.rules.RulesSuite;
+import com.mckinsey.exercise.service.impl.ServiceSuite;
+
 @RunWith(Suite.class)
-@Suite.SuiteClasses({RulesSuite.class, ServiceSuite.class})
+@Suite.SuiteClasses({ RulesSuite.class, ServiceSuite.class })
 public class BillingSystemSuite {
 }
