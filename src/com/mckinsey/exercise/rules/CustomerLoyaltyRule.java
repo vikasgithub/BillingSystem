@@ -16,6 +16,6 @@ public class CustomerLoyaltyRule {
 		int registrationDurationInYears = Years.yearsBetween(
 				new DateTime(order.getUser().getRegistrationDate()),
 				new DateTime(order.getOrderDate())).getYears();
-		return (registrationDurationInYears > YEARS_REQUIRED_TO_BECOME_LOYAL_CUSTOMER);
+		return (registrationDurationInYears >= YEARS_REQUIRED_TO_BECOME_LOYAL_CUSTOMER);
 	}
 }
