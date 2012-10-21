@@ -1,0 +1,24 @@
+Project Structure
+-------------------
+This Intellij idea based project contains two source folders. This project can be easily imported into eclipse
+as I have generated the eclipse compatible .classpath and .project files.
+1. src - contains the main classes
+2. test - contains the test cases.
+
+Package Structure
+-----------------
+1. com.mckinsey.exercise.domain - This package contains the main domain classes and Enums.
+2. com.mckinsey.exercise.rules - This package contains the business rules and discount classes.
+3. com.mckinsey.exercise.service - This package contains the services. There are two main services
+   a. BillingService: for Generating the bill for the order
+   b. DiscountService: for calculating the applicable discounts.
+
+Running test cases
+------------------
+1. BillingSystemSuite: Will run all the test cases
+2. RulesSuite: Will execute all the business and discount rules test cases
+3. ServiceSuite: Will execute all the service test cases
+
+
+
+
