@@ -5,7 +5,7 @@ import java.util.Date;
 /**
  * Encapsulates a bill. Whenever a order is processed, a bill is generated.
  * 
- * 
+ * dddddd
  * Created by IntelliJ IDEA. User: vikas Date: 20/10/12 Time: 7:32 PM To change
  * this template use File | Settings | File Templates.
  */
